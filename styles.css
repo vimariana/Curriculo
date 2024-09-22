@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(200, 162, 255, 0.5); /* Lilás transparente */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.language-button {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* Botão de voltar */
+.back-button {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Ícones e Links de Contato */
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato ul li {
+    margin: 20px 0;
+}
+
+.contato ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.contato ul li a i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Alinhamento do conteúdo */
+.container {
+    text-align: center;
+}
